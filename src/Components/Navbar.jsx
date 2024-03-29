@@ -21,7 +21,7 @@ export default function Navbar() {
             {Links.map(({ id, name, URL }) => (
               <li
                 key={id}
-                className="py-4 px-5 cursor-pointer text-white hover:font-medium hover:opacity-80 hover:transition-all delay-150"
+                className="py-4 px-5 cursor-pointer text-white hover:opacity-80 hover:transition-all delay-150"
               >
                 <Link href={URL}>{name} </Link>
               </li>
