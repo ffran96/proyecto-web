@@ -8,9 +8,9 @@ export default function Dropdown({ HandleClick, setHandleClick, Links }) {
         <div className="absolute inset-0 bg-rose-600">
           <ul className="flex flex-col h-full justify-center items-center ">
             {Links.map(({ id, name, URL }) => (
-              <li className="p-6 font-semibold text-white" key={id}>
+              <li className="p-7 font-semibold text-white" key={id}>
                 <Link onClick={() => setHandleClick(!HandleClick)} href={URL}>
-                  <span className="py-6 px-36 text-center cursor-pointer">{name}</span>
+                  <span className="">{name}</span>
                 </Link>
               </li>
             ))}
