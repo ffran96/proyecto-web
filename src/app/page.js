@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      Landing Web
+      <section className="absolute -z-10 inset-0 h-screen"> Landing page</section>
     </main>
   );
 }
