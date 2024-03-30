@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <section
-        className={`${BGImage} absolute bg-cover bg-center  top-0 -z-10 h-screen  w-screen `}
+        className={`${BGImage} absolute bg-cover bg-center  top-0 -z-10 h-screen  w-screen overflow-hidden `}
       >
         Landing page
       </section>
