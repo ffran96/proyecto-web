@@ -12,7 +12,11 @@ export default function Dropdown({ HandleClick, setHandleClick, Links }) {
                 className="relative w-44 h-12  font-medium text-white border-[1px]"
                 key={id}
               >
-                <Link className="flex absolute inset-0 items-center justify-center" onClick={() => setHandleClick(!HandleClick)} href={URL}>
+                <Link
+                  className="flex absolute inset-0 items-center justify-center"
+                  onClick={() => setHandleClick(!HandleClick)}
+                  href={URL}
+                >
                   {name}
                 </Link>
               </li>
