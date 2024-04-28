@@ -6,7 +6,7 @@ export default function Dropdown({ HandleClick, setHandleClick, Links }) {
     <>
       {HandleClick && (
         <div className="absolute inset-0 bg-rose-600 xl:hidden">
-          <ul className="flex flex-col h-full justify-center gap-4 items-center ">
+          <ul className="h-full flex flex-col justify-center items-center gap-4">
             {Links.map(({ id, name, URL }) => (
               <li
                 className="relative w-44 h-12  font-medium text-white border-[1px]"
