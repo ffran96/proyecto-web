@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Logo() {
   return (
-    <span className='font-semibold text-2xl'>WEBTODAY!</span>
-  )
+    <div className="font-semibold text-2xl">
+      <span>WEB</span>
+      <span className="text-yellow-300">TODAY!</span>
+    </div>
+  );
 }
