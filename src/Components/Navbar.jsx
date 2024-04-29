@@ -28,7 +28,7 @@ export default function Navbar() {
             {Links.map(({ id, name, URL }) => {
               const isActive = pathname.startsWith(URL);
               return (
-                <li key={id} className="">
+                <li key={id}>
                   <Link
                     className={
                       isActive
