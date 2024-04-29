@@ -50,11 +50,14 @@ export default function Navbar() {
             />
           </div>
         </div>
-        <Dropdown
-          Links={Links}
-          HandleClick={HandleClick}
-          setHandleClick={setHandleClick}
-        />
+
+        {HandleClick && (
+          <Dropdown
+            Links={Links}
+            HandleClick={HandleClick}
+            setHandleClick={setHandleClick}
+          />
+        )}
       </nav>
     </header>
   );
