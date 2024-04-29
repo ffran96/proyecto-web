@@ -11,10 +11,7 @@ import Logo from "./Logo";
 
 export default function Navbar() {
   const [HandleClick, setHandleClick] = useState(false);
-
   const pathname = usePathname();
-  console.log(pathname);
-
   return (
     <header className="bg-rose-600 shadow-sm shadow-rose-300">
       <nav className="mx-8 xl:m-auto max-w-7xl  flex justify-between items-center">
