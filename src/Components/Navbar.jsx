@@ -28,11 +28,17 @@ export default function Navbar() {
             {Links.map(({ id, name, URL }) => {
               const isActive = pathname.startsWith(URL);
               return (
-                <li
-                  key={id}
-                  className="relative py-4 px-5 cursor-pointer text-white hover:opacity-80 hover:transition-all delay-150"
-                >
-                  <Link className={isActive ? "underline decoration-yellow-300 decoration-4 underline-offset-8" : ""} href={URL}>{name} </Link>
+                <li key={id} className="">
+                  <Link
+                    className={
+                      isActive
+                        ? "relative py-4 px-5 cursor-pointer text-white hover:opacity-80 hover:transition-all delay-150 underline decoration-yellow-300 decoration-4 underline-offset-8"
+                        : "relative py-4 px-5 cursor-pointer text-white hover:opacity-80 hover:transition-all delay-150"
+                    }
+                    href={URL}
+                  >
+                    {name}
+                  </Link>
                 </li>
               );
             })}
