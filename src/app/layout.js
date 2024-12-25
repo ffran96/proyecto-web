@@ -1,12 +1,11 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/Components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Project-Web",
-  description: "Mi proyecto web",
+  title: "Webeo - Diseñamos tu Web a Medida",
+  description: "En Webeo diseñamos tu página web a medida, rápido y a buen precio. ¡Contáctanos! 😊",
 };
 
 export default function RootLayout({ children }) {
