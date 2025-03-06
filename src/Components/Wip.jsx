@@ -22,7 +22,7 @@ export default function Wip() {
           We are working on it.
         </p>
       </main>
-      <footer className="bg-[#00000069] bottom-0 absolute w-dvw h-14 flex">
+      <footer className="bg-[#00000069] bottom-0 fixed w-dvw h-14 flex backdrop-blur-lg">
         <span className="flex gap-1 justify-center items-center w-full">
           👋
           <a
