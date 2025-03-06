@@ -5,10 +5,10 @@ import WorkingImage from "../../public/working.png";
 export default function Wip() {
   return (
     <>
-      <main className="mx-4 flex flex-col gap-32 mt-20 justify-start items-center">
-        <h1 className="text-[#ffffff] text-5xl font-bold">Webeo.es</h1>
+      <main className="mx-4 flex flex-col mt-20 justify-start items-center">
+        <h1 className="text-[#ffffff] text-5xl font-bold mb-20">Webeo.es</h1>
         <Image
-          className="bg-cover max-w-4xl"
+          className="bg-cover max-w-xl mb-10"
           src={WorkingImage}
           alt="Work in progress"
           loading="lazy"
@@ -17,6 +17,7 @@ export default function Wip() {
             width: "100%",
             height: "auto",
           }}
+
         />
         <p className="text-[#ffffff] text-2xl font-light italic">
           We are working on it.
