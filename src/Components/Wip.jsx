@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import WipImage from "../../public/wip.png";
+import WorkingImage from "../../public/working.png";
 
 export default function Wip() {
   return (
     <>
-      <main className="flex flex-col gap-6 mt-20 justify-start items-center">
+      <main className="mx-4 flex flex-col gap-32 mt-20 justify-start items-center">
         <h1 className="text-[#ffffff] text-5xl font-bold">Webeo.es</h1>
         <Image
           className="bg-cover max-w-4xl"
-          src={WipImage}
+          src={WorkingImage}
           alt="Work in progress"
           loading="lazy"
           quality={100}
