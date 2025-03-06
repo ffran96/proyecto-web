@@ -17,7 +17,6 @@ export default function Wip() {
             width: "100%",
             height: "auto",
           }}
-
         />
         <p className="text-[#ffffff] text-2xl font-light italic">
           We are working on it.
