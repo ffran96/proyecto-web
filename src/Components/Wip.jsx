@@ -6,7 +6,7 @@ export default function Wip() {
   return (
     <>
       <main className="flex flex-col gap-6 mt-20 justify-start items-center">
-        <h1 className="text-[#FFB6DB] text-5xl font-bold">Webeo.es</h1>
+        <h1 className="text-[#ffffff] text-5xl font-bold">Webeo.es</h1>
         <Image
           className="bg-cover max-w-4xl"
           src={WipImage}
@@ -18,21 +18,19 @@ export default function Wip() {
             height: "auto",
           }}
         />
-        <p className="text-[#FFB6DB] text-2xl font-light italic">
+        <p className="text-[#ffffff] text-2xl font-light italic">
           We are working on it.
         </p>
       </main>
       <footer className="bg-[#00000069] bottom-0 absolute w-dvw h-14 flex">
-      
         <span className="flex gap-1 justify-center items-center w-full">
-        👋
+          👋
           <a
             className="justify-center items-center hover:underline text-[#ffffff] font-semibold"
             href="mailto:hola@webeo.es"
           >
             hola@webeo.es
           </a>
-          
         </span>
       </footer>
     </>
