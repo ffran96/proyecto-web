@@ -7,8 +7,8 @@ export default function Wip() {
     <>
       <main className="[&>div]:mx-10  flex flex-col gap-4 py-10 justify-start items-center bg-[#ff5a5a] h-dvh">
         <div className="h-[10%]">
-          <h1 className="text-[#ffffff] text-xl xl:text-5xl font-bold mb-20 uppercase">
-            Webeo.es
+          <h1 className="text-[#ffffff] text-3xl xl:text-5xl font-bold mb-20 uppercase">
+            Webeo
           </h1>
         </div>
         <div className="h-[50%] w-auto">
